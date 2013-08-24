@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Web App Boilerplate - Build apps HTML5 for Android</title>
+		
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Project Open Source Web App Boilerplate - Build apps HTML5 for Android">
+		<meta itemprop="image" content="http://brenopolanski.github.io/webapp-boilerplate/img/profile-200.png">
+		<meta name="keywords" content="webapp, html5, android, webview">
+		<meta name="author" content="Breno Polanski, Alysson Thiago">
+
+		<!-- Style -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Fonts -->
+		<link rel="stylesheet" type="text/css" media="all" id="googleFonts-css" href="http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700%2C800&#038;ver=3.4.2">
+		<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	<body>
+		<!-- Fork me on GitHub -->
+		<a href="https://github.com/brenopolanski/webapp-boilerplate"><img class="fork-ribbon" src="img/fork-ribbon.png" alt="Fork me on GitHub"></a>
+
+		<!-- Navbar Top -->
+		<div class="navbar navbar-static-top">
+			<div class="container">
+				<nav>
+					<ul>
+						<li class="hidden-phone hidden-tablet"><a class="scroll" step="1" href="#step1">View your page like it application</a></li>
+						<li><a class="scroll" step="2" href="#step2">Android SDK download</a></li>
+						<li><a class="scroll" step="3" href="#step3">Instructions</a></li>
+						<li><a class="scroll" step="4" href="#step4">App Example</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Title Project -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="title-project">web app boilerplate<span>build apps html5 for android</span></h1>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo Project -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4"></div>
+				<div class="col-lg-4">
+					<div class="logo-project"></div>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+		</div>
+
+		<!-- Step 1 -->
+		<div id="step-1" class="step content hidden-phone hidden-tablet">
+			<div class="container">
+				<div class="row">
+					<div class="circle-step hidden-phone hidden-tablet"><span class="centered">1</span></div>
+					<div class="col-lg-6">
+						<h3>View your page like it application</h3>
+						<div class="input-group">
+							<input type="text" id="url" class="form-control" placeholder="http://www.your-page.com">
+							<span class="input-group-btn">
+								<button type="button" id="go-url" class="btn btn-default">Go!</button>
+							</span>
+						</div>
+						<h2>view and build it...</h2>
+					</div>
+					<div class="col-lg-6">
+						<section class="phone">
+							<object id="iframe" width="337" height"572" type="text/html" data=""></object>
+							<div id="scrollbar-fix"></div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Step 2 -->
+		<div id="step-2" class="step content">
+			<div class="container">
+				<div class="row">
+					<div class="circle-step hidden-phone hidden-tablet"><span class="centered">2</span></div>
+					<div class="col-lg-4"></div>
+					<div class="col-lg-4">
+						<button type="button" id="down-sdk" class="btn btn-project">Android SDK download</button> <!-- http://developer.android.com/sdk/index.html -->
+						<ol>
+							<li>Start Eclipse, then select <b>Help > Install New Software</b>.</li>
+							<li>Click <b>Add</b>, in the top-right corner.</li>
+							<li>In the Add Repository dialog that appears, enter "ADT Plugin" for the <i>Name</i> and the following URL for the <i>Location</i>:</li>
+							<pre><code>https://dl-ssl.google.com/android/eclipse/</code></pre>
+							<li>Click <b>OK</b>.</li>
+							<p>If you have trouble acquiring the plugin, try using "http" in the Location URL, instead of "https" (https is preferred for security reasons).</p>
+							<li>In the Available Software dialog, select the checkbox next to Developer Tools and click <b>Next</b>.</li>
+							<li>In the next window, you'll see a list of the tools to be downloaded. Click <b>Next</b>.</li>
+							<li>Read and accept the license agreements, then click <b>Finish</b>.</li>
+							<p>If you get a security warning saying that the authenticity or validity of the software can't be established, click <b>OK</b>.</p>
+							<li>When the installation completes, restart Eclipse.</li>
+						</ol>
+						<a class="view-more pull-right" href="http://developer.android.com/sdk/installing/installing-adt.html#Configure">View more &raquo;</a>
+					</div>
+					<div class="col-lg-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Step 3 -->
+		<div id="step-3" class="step content">
+			<div class="container">
+				<div class="row">
+					<div class="circle-step hidden-phone hidden-tablet"><span class="centered">3</span></div>
+					<div class="col-lg-4"></div>
+					<div class="col-lg-4">
+						<h3>Instructions to Eclipse users</h3>
+						<p>In order to import <b>Web App Boilerplate</b> properly, consider the following steps:</p>
+						<ol>
+							<li>Clone GitHub project:</li>
+							<pre><code>git clone https://github.com/brenopolanski/webapp-boilerplate</code></pre>
+							<li>Import the project to Eclipse.</li>
+							<li>Open the <b>WebAppActivity.java</b> file and edit the following line of code with the link to your web page:</li>
+							<pre><code>/* Constant that represents the web address that will be loaded in WebView */<br><br>private final String URL = "http://www.your-page.com";</code></pre>
+							<li>Add the icon from your web page in your project.</li>
+							<p><b>Obs:</b> Icon (.png) size 72x72 pixels.</p>
+							<li>Building and Running the project for Android and view in your SDK.</li>
+						</ol>
+						<a class="view-more pull-right" href="https://github.com/brenopolanski/webapp-boilerplate">View more &raquo;</a>
+					</div>
+					<div class="col-lg-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Step 4 -->
+		<div id="step-4" class="step content">
+			<div class="container">
+				<div class="row">
+					<div class="circle-step hidden-phone hidden-tablet"><span class="centered">4</span></div>
+					<div class="col-lg-4"></div>
+					<div class="col-lg-4">
+						<button type="button" class="btn btn-project">download app example</button>
+					</div>
+					<div class="col-lg-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Team Project -->
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-4">
+						<img id="img-breno" src="img/breno-polanski.png" alt="Breno Polanski"><img id="img-git-breno" class="hide" src="img/github.png" width="130" height="130" alt="Breno Polanski"><br>
+						<h4 class="team-description"><a id="git-breno" href="https://github.com/brenopolanski">Breno Polanski</a><br>Front-End Developer</h4>
+					</div>
+					<div class="col-lg-4">
+						<img id="img-alysson" src="img/alysson-thiago.png" alt="Alysson Thiago"><img id="img-git-alysson" class="hide" src="img/github.png" width="130" height="130" alt="Alysson Thiago"><br>
+						<h4 class="team-description"><a id="git-alysson" href="https://github.com/autscc">Alysson Thiago</a><br>Java Developer</h4>
+					</div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.easing.1.3.min.js"></script>
+        <script src="js/jquery.bubble.engine.min.js"></script>
+        <script src="js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				//* function main
+				project_fn_main.init();
+			});
+		</script>
+	</body>
+</html>
