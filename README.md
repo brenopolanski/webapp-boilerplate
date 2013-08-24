@@ -22,6 +22,6 @@ private final String URL = "http://www.your-page.com";
 
 4 . Add the icon from your web page in your project.
 
-> **Obs:** Icon size 72x72 pixels.
+> **Obs:** Icon (.png) size 72x72 pixels.
 
-5 . Compile the project for Android and view in your SDK.
+5 . Building and Running the project for Android and view in your SDK.
