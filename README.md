@@ -8,7 +8,7 @@ In order to import Web **App Boilerplate properly**, consider the following step
 
 1 . Clone GitHub project:
 
-`sudo git clone https://github.com/brenopolanski/webapp-boilerplate`
+`git clone https://github.com/brenopolanski/webapp-boilerplate`
 
 2 . Import the project to Eclipse.
 
