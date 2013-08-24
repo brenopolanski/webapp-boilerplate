@@ -6,13 +6,13 @@
 
 In order to import Web **App Boilerplate properly**, consider the following steps:
 
-1. Clone GitHub project
+1 . Clone GitHub project:
 
 `$ git clone git@github.com:brenopolanski/webapp-boilerplate.git`
 
-2. Import the project to Eclipse.
+2 . Import the project to Eclipse.
 
-3. Open the **WebAppActivity.java** file and edit the following line of code with the link to your web page:
+3 . Open the **WebAppActivity.java** file and edit the following line of code with the link to your web page:
 
 <pre>
 /* Constant that represents the web address that will be loaded in WebView */
@@ -20,8 +20,8 @@ In order to import Web **App Boilerplate properly**, consider the following step
 private final String URL = "http://www.your-page.com";
 </pre>
 
-4. Add the icon from your web page in your project.
+4 . Add the icon from your web page in your project.
 
 > **Obs:** Icon size 72x72 pixels.
 
-5. Compile the project for Android and view in your SDK.
+5 . Compile the project for Android and view in your SDK.
