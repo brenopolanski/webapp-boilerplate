@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------------------------------------------------------
     Description : Stylesheet essential for marking and viewing project Web App Boilerplate
     Version     : 1.0        
-    Last Update : 23 August, 2013
+    Last Update : 25 August, 2013
     Author      : Breno Polanski - brenopolanski@gmail.com - www.brenopolanski.com
                   Alysson Thiago - autscc@gmail.com
 ---------------------------------------------------------------------------------------------------------------------
@@ -228,6 +228,25 @@ button {
 	font-size: 1.1em;
 	font-weight: 800;
 	text-transform: uppercase;
+}
+
+/* download project GitHub */
+
+#down-project {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* social buttons */
+
+.social-buttons {
+	list-style: none;
+	text-align: center;
+}
+
+.social-buttons li {
+	display: block;
+	margin-top: 5px;
 }
 
 /* 1.6. PHONE

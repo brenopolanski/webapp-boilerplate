@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------------------------------------------------------
     Description : Functions JavaScript Web App Boilerplate
     Version     : 1.0        
-    Last Update : 23 August, 2013
+    Last Update : 25 August, 2013
     Author      : Breno Polanski - brenopolanski@gmail.com - www.brenopolanski.com
                   Alysson Thiago - autscc@gmail.com
 ---------------------------------------------------------------------------------------------------------------------
@@ -26,6 +26,7 @@ SUBTILES:
             project_fn_scrollBottom.init();
             //* buttom download
             project_fn_down.sdk();
+            project_fn_down.apk();
             //* hover image github
             project_fn_hoverImgGitHub.breno();
             project_fn_hoverImgGitHub.alysson();
@@ -90,6 +91,11 @@ SUBTILES:
         sdk: function() {
             $('#down-sdk').click(function(){
                 $(location).attr('href', 'http://developer.android.com/sdk/index.html');
+            });
+        },
+        apk: function() {
+            $('#down-apk').click(function(){
+                $(location).attr('href', 'https://github.com/brenopolanski/webapp-boilerplate/zipball/gh-download/');
             });
         }
     };
