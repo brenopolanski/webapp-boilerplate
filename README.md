@@ -2,4 +2,4 @@
 
 ## Build apps HTML5 for Android
 
-Link Project: http://webapp-boilerplate.io
+Link Project: http://brenopolanski.github.io/webapp-boilerplate
