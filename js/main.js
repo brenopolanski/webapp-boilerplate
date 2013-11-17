@@ -2,7 +2,7 @@
     Description : Functions JavaScript Web App Boilerplate
     Version     : 1.0        
     Last Update : 25 August, 2013
-    Author      : Breno Polanski - brenopolanski@gmail.com - www.brenopolanski.com
+    Author      : Breno Polanski - breno.polanski@gmail.com - www.brenopolanski.com
                   Alysson Thiago - autscc@gmail.com
 ---------------------------------------------------------------------------------------------------------------------
 
