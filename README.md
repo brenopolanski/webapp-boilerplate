@@ -6,7 +6,7 @@ Building Web Apps in WebView for Android.
 
 ## Instructions to Eclipse users
 
-In order to import Web **App Boilerplate properly**, consider the following steps:
+In order to import **Web App Boilerplate** properly, consider the following steps:
 
 1. Clone GitHub project:
 
