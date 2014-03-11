@@ -8,7 +8,7 @@ Building Web Apps in WebView for Android.
 
 In order to import **Web App Boilerplate** properly, consider the following steps:
 
-1. Clone GitHub project:
+1. Clone project:
 
         git clone https://github.com/brenopolanski/webapp-boilerplate
 
