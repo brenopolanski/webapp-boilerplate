@@ -1,10 +1,10 @@
 # Web App Boilerplate
 
-Building Web Apps in WebView for Android
+Building Web Apps in WebView for Android.
 
 ![image webapp-boilerplate](https://raw.github.com/brenopolanski/webapp-boilerplate/gh-assets/webapp-boilerplate.gif)
 
-### Instructions to Eclipse users
+## Instructions to Eclipse users
 
 In order to import Web **App Boilerplate properly**, consider the following steps:
 
