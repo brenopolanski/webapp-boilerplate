@@ -60,7 +60,7 @@ SUBTILES:
     project_fn_reloadPhone = {
         init: function(){
             // start page http://getbootstrap.com
-            $('#iframe').attr('data', 'http://getbootstrap.com');
+            $('#iframe').attr('data', 'http://brenopolanski.github.io/webapp-boilerplate/');
             $('#go-url').click(function(){
                 if ($('#url').val() === '') {
                 } else {
