@@ -3,7 +3,7 @@ package com.example.webapp_biolerplate.utils;
 import android.content.Context;
 import android.net.ConnectivityManager;
 
-public class ConexaoInternet {
+public class ConnectionInternet {
 
 	/**
 	 * Method to check whether the device is connected to internet
