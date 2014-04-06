@@ -1,6 +1,6 @@
 package com.example.webapp_boilerplate.activities;
 
-import com.example.webapp_biolerplate.utils.ConexaoInternet;
+import com.example.webapp_biolerplate.utils.ConnectionInternet;
 import com.example.webapp_boilerplate.R;
 
 import android.os.Bundle;
@@ -25,7 +25,7 @@ public class WebAppActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_webapp);
 		webview = (WebView)findViewById(R.id.webView_web_app); /* Instantiating object WebView */
-		if(ConexaoInternet.verificaStatusInternet(this)){
+		if(ConnectionInternet.verificaStatusInternet(this)){
 			set_web_View(webview, URL);
 		}else{
 			/* Opening Erro404Activity */
@@ -65,18 +65,19 @@ public class WebAppActivity extends Activity {
 
 	/**
 	 * Method to display alert
-	 * @param titulo   - Title of the message that is displayed
-	 * @param mensagem - Description with the message that will be displayed
+	 * @param title   - Title of the message that is displayed
+	 * @param message - Description with the message that will be displayed
 	 */
-	public void alertDialogWebAppActivity(String titulo, String mensagem) {
+	public void alertDialogWebAppActivity(String title
+			, String message) {
 		/* Creating alert to the current context (WebAppActivity) */
 		AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
 
 		/* By setting title */
-		alertDialog.setTitle(titulo);
+		alertDialog.setTitle(title);
 
 		/* By setting the alert message */
-		alertDialog.setMessage(mensagem);
+		alertDialog.setMessage(message);
 
 		/* Setting the icon that appears in the message */
 		alertDialog.setIcon(R.drawable.icon);
