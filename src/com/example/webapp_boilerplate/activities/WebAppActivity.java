@@ -1,6 +1,6 @@
 package com.example.webapp_boilerplate.activities;
 
-import com.example.webapp_biolerplate.utils.ConnectionInternet;
+import com.example.webapp_boilerplate.utils.ConnectionInternet;
 import com.example.webapp_boilerplate.R;
 
 import android.os.Bundle;
@@ -25,7 +25,7 @@ public class WebAppActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_webapp);
 		webview = (WebView)findViewById(R.id.webView_web_app); /* Instantiating object WebView */
-		if(ConnectionInternet.verificaStatusInternet(this)){
+		if(ConnectionInternet.checkStatusInternet(this)){
 			set_web_View(webview, URL);
 		}else{
 			/* Opening Erro404Activity */
