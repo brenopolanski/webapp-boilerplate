@@ -16,17 +16,29 @@ In order to import **Web App Boilerplate** properly, consider the following step
 
 2. Import the project to Eclipse.
 
-3. Open the **WebAppActivity.java** file and edit the following line of code with the link to your web page:
+3. Open the `WebAppActivity.java` file and edit the following line of code with the link to your web page:
 
         /* Constant that represents the web address that will be loaded in WebView */
 
         private final String URL = "http://www.your-page.com";
+        
+4. Navigate to paste **values/** and edit the file `strings.xml` to add a name for your app:
 
-4. Add the icon from your web page in your project.
+        |-- res/
+        |   |-- values/
+        |       |-- strings.xml
 
-        Obs: Icon (.png) size 72x72 pixels.
+ > Rename **webapp_boilerplate** to the name of your app.
 
-5. Building and Running the project for Android and view in your SDK.
+5. Navigate to paste **drawable-hdpi/** and add the icon from your web page in your project:
+
+        |-- res/
+        |   |-- drawable-hdpi/
+        |       |-- icon.png
+
+ > Obs: Icon (.png) size 72x72 pixels.
+
+6. Building and Running the project for Android and view in your SDK.
 
 ## Contributing
 
