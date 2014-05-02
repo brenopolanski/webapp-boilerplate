@@ -24,21 +24,17 @@ In order to import **Web App Boilerplate** properly, consider the following step
         
 4. Navigate to paste `values/` and edit the file `strings.xml` to add a name for your app:
 
-        <pre>
         |-- res/
         |   |-- values/
         |       |-- strings.xml
-        </pre>
 
  > Rename **webapp_boilerplate** to the name of your app.
 
 5. Navigate to paste `drawable-hdpi/` and add the icon from your web page in your project:
 
-        <pre>
         |-- res/
         |   |-- drawable-hdpi/
         |       |-- icon.png
-        </pre>
 
  > Obs: Icon (.png) size 72x72 pixels.
 
