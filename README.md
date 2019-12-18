@@ -54,10 +54,9 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/webapp-b
 
 ## Authors
 
-[![Alysson Tiago](http://gravatar.com/avatar/ec773df775e7301929db4ee9e60b3d07?s=70)](https://github.com/autscc) | [![Breno Polanski](http://gravatar.com/avatar/6f211e50751c3b69b5621e49a0a3072b?s=70)](https://github.com/brenopolanski)
---- | --- | --- | --- | --- | --- | ---
-[Alysson Tiago](https://github.com/autscc)<br>autscc@gmail.com | [Breno Polanski](https://github.com/brenopolanski)<br>breno.polanski@gmail.com |
+- [@autscc](https://github.com/autscc)
+- [@brenopolanski](https://github.com/brenopolanski)
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT)
